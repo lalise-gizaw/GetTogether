@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team Details - GetTogether</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy-blue: #1a237e;
+      --light-navy: #303f9f;
+      --silver: #e0e0e0;
+      --light-silver: #f5f5f5;
+      --text-color: #333;
+      --max-width: 1200px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background-color: var(--light-silver);
+      color: var(--text-color);
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-bottom: 2rem;
+      color: var(--navy-blue);
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .back-button:hover {
+      color: var(--light-navy);
+      transform: translateX(-5px);
+    }
+
+    .team-member-card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      border: 1px solid var(--silver);
+    }
+
+    .team-member-card h2 {
+      color: var(--navy-blue);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid var(--silver);
+    }
+
+    .team-member-card p {
+      margin-bottom: 1rem;
+      color: var(--text-color);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background-color: var(--navy-blue);
+      color: white;
+      border-radius: 15px;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+      }
+
+      .team-member-card {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-button">← Back to Home</a>
+    
+    <div class="header">
+      <h1>Team Details</h1>
+      <p>Get to know our amazing team members</p>
+    </div>
+
+    <div class="team-member-card">
+      <h2>Lalise Gizaw</h2>
+      <p><strong>Year:</strong> Senior</p>
+      <p><strong>Major:</strong> Mathematics and Computer Science Engineering</p>
+    
+    </div>
+
+    <div class="team-member-card">
+      <h2>Adam Davis</h2>
+      <p><strong>Year:</strong> Senior</p>
+      <p><strong>Major:</strong> Computer Science Engineering</p>
+      
+
+    <div class="team-member-card">
+      <h2>Thomas Vasile</h2>
+      <p><strong>Year:</strong> Senior</p>
+      <p><strong>Major:</strong> Computer Science Engineering</p>
+      
+    </div>
+  </div>
+</body>
+</html> 
